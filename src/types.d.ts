@@ -14,3 +14,9 @@ export type ThemeContextType = {
 export type ThemeProviderProps = {
   children: React.ReactNode;
 }
+
+export type Product = {  
+  id: number;
+  name: string;
+  price: number;
+}
