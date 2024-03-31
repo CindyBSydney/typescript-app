@@ -4,3 +4,13 @@ export type User = {
   email: string;
 }
 
+export type Theme = 'light' | 'dark'; 
+
+export type ThemeContextType = {
+  theme: Theme;
+  toggleTheme: () => void;
+}
+
+export type ThemeProviderProps = {
+  children: React.ReactNode;
+}
